@@ -1,0 +1,30 @@
+Script is starting
+- - - - - - - - - - 
+Parameters
+riskFreeRate :  0.0025
+baseAmount :  100000.0
+number of iterations 10000
+- - - - - - - - - - 
+[Step 1]
+Compute a random trajectory
+V1 :  246506.505963
+V0 :  245891.776521
+- - - - - - - - - - 
+[Step 2]
+Mean of V0 for  10000  computations
+Computation in progress ...
+V0 mean :  179369.758786
+Rate mean :  79.3697587862 %
+- - - - - - - - - - 
+[Step 3]
+Compute V0bis = E(V1) / (1 + rf)
+Computation in progresss ...
+V0bis :  178307.912767
+- - - - - - - - - - 
+[Step 4]
+Iplement the min max option.
+Option between  -5.0 %  and  10.0 %
+Computation in progresss ...
+Mean with option  109936.691354
+- - - - - - - - - - 
+End of programm
